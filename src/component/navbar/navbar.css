@@ -1,0 +1,7 @@
+.navbar-container a {
+  text-decoration: none;
+  margin-left: 200px;
+}
+.active-link {
+  color: red;
+}

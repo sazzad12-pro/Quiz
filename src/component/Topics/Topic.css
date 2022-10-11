@@ -1,0 +1,15 @@
+.card-container {
+  width: 800px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,6 +1,9 @@
-.navbar-container a {
+.text a {
   text-decoration: none;
-  margin-left: 200px;
+  margin-left: 100px;
+}
+.text-1 {
+  margin-left: 600px;
 }
 
 .link {
@@ -9,4 +12,15 @@
 .active-link {
   color: red;
   border-bottom: 2px solid black;
+}
+.quiz {
+  font-size: 2rem;
+  color: blueviolet;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .text-1 {
+    margin: 0px;
+  }
 }

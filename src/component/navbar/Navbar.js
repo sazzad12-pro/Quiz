@@ -6,8 +6,18 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <NavLink to="/">Topics</NavLink>
-      <NavLink to="/statistics">Statistics</NavLink>
-      <NavLink to="/blog">Blog</NavLink>
+      <NavLink
+        to="/statistics"
+        className={({ isActive }) => (isActive ? "active-link" : "link")}
+      >
+        Statistics
+      </NavLink>
+      <NavLink
+        to="/blog"
+        className={({ isActive }) => (isActive ? "active-link" : "link")}
+      >
+        Blog
+      </NavLink>
     </div>
   );
 };

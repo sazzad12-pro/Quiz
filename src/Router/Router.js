@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Blog from "../component/Blog/Blog";
+import NotFound from "../component/notFound/NotFound";
 import Quiz from "../component/Quiz/Quiz";
 import Statistics from "../component/Statistics/Statistics";
 import Topics from "../component/Topics/Topics";
@@ -38,5 +39,9 @@ export const route = createBrowserRouter([
         element: <Quiz></Quiz>,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <NotFound></NotFound>,
   },
 ]);

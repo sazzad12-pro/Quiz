@@ -4,7 +4,7 @@ import "./header.css";
 const Header = () => {
   return (
     <div>
-      <h1 className="text-center">Select your best practice</h1>
+      <h1 className="text-center fw-bold">Select your best practice</h1>
     </div>
   );
 };

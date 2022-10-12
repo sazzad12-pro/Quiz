@@ -26,7 +26,7 @@ const ShowQuiz = ({ quizQuestion }) => {
 
           <i className="fa-regular fa-eye"></i>
         </div>
-        <div>
+        <div className="ms-5">
           {options.map((x) => (
             <div className="form-check">
               <input

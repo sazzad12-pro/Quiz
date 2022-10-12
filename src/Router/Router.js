@@ -18,6 +18,9 @@ export const route = createBrowserRouter([
         element: <Topics></Topics>,
       },
       {
+        loader: async () => {
+          return fetch(" https://openapi.programming-hero.com/api/quiz");
+        },
         path: "/statistics",
         element: <Statistics></Statistics>,
       },

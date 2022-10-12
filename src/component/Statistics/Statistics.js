@@ -17,7 +17,6 @@ const Statistics = () => {
   console.log(totals.data);
   return (
     <div>
-      <h1>This is Statistics</h1>
       <LineChart
         width={600}
         height={300}
